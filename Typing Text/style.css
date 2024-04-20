@@ -1,0 +1,32 @@
+/* styling the whole body */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+/* styling the div container */
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #020412;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+  
+
+/* styling the h1 */
+h1 {
+    color: white;
+    font-size: 75px;
+
+}
+  
+
+/* styling the span in h1 */
+span {
+    color: #fff724;
+}

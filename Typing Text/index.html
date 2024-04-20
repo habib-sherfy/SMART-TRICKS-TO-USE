@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing text</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hello I'm <span class="auto-type"></span></h1>
+    </div>
+
+
+
+    <!-- go to your browser and search for typed js and copy the cdn link -->
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- now use the class autotype to make the motion work -->
+    <script>
+        var typed = new Typed('.auto-type',{
+            strings : ["Programmer", "Developer", "Youtuber", "Designer"],
+            typeSpeed : 150,
+            backSpeed : 100,
+            looped : true,
+        })
+    </script>
+</body>
+</html>
